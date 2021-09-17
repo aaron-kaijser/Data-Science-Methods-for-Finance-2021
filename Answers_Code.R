@@ -1,3 +1,6 @@
+############ Code by Aaron Kaijser
+############ Ran on R version 4.0.5 on Windows 10
+
 rm(list=ls())
 gc()
 
