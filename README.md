@@ -4,3 +4,6 @@ Forecasting Dutch electricity prices and design a trading strategy.
 
 ## Answers
 In this folder you will find the exam questions, my code and and my answers. 
+
+NOTE: The pre-processed datasets were made available for those that did not succeed in transforming the raw data into usable datasets for machine learning applications. 
+2021_Electricity_Data.RDS is the main raw data. 
