@@ -13,7 +13,7 @@ library(caret) # for PLS regressions
 Sys.setlocale("LC_TIME","English")
 
 # Importing raw data
-data <- setDT(readRDS("C:/Users/Arie/Documents/Tilburg University/Master Finance CFA 20202021/Data Science for Finance/Exam + Assignment Materiaal/2021_Electricity_data.RDS"))
+data <- setDT(readRDS("C:/2021_Electricity_data.RDS"))
 
 # Question 1.1 --------------------------------------------------------------
 # Calculating average hourly prices for all days
@@ -167,7 +167,7 @@ rm(temp) # clean up
 
 # Question 2.1 ------------------------------------------------------------
 # Importing raw data (again)
-data <- setDT(readRDS("C:/Users/Arie/Documents/Tilburg University/Master Finance CFA 20202021/Data Science for Finance/Exam + Assignment Materiaal/2021_Electricity_data.RDS"))
+data <- setDT(readRDS("C:/2021_Electricity_data.RDS"))
 
 # Computes hours which I will use in for loop
 temp <- data
